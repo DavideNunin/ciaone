@@ -1,5 +1,5 @@
 public class Ciaone {
-    public static void main(String args[]){
+    void main() {
         System.out.println("ciaone");
         System.out.println(Ciaone.fib(3));
     }
