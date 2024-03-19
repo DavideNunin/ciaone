@@ -11,4 +11,11 @@ public class Ciaone {
             return Ciaone.fib(n-1)+Ciaone.fib(n-2);
         }
     }
+    private static int factorial(int n){
+        if (n==1 || n==0){
+            return 1;
+        }
+        else
+            return Ciaone.factorial(n-1)*n;
+    }
 }
