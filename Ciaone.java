@@ -23,4 +23,11 @@ public class Ciaone {
         res +=a;
         return res;
     }
+    private static int factorial(int n){
+        if (n==1 || n==0){
+            return 1;
+        }
+        else
+            return Ciaone.factorial(n-1)*n;
+    }
 }
